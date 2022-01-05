@@ -1,0 +1,23 @@
+{
+   "Prompt": "^*_*^  >",
+    "InitialFilter": "SmartCase",
+    "MaxScanBufferSize": 256,
+    "Style": {
+        "Basic": ["on_default", "default"],
+        "SavedSelection": ["bold", "on_yellow", "white"],
+        "Selected": ["underline", "on_250", "black"],
+        "Query": ["black", "bold"],
+        "Matched": ["yellow"]
+    },
+    "Use256Color": true,
+    "Keymap": {
+        "C-x": "peco.Cancel",
+        "Home": "peco.BeginningOfLine",
+        "End":  "peco.EndOfLine",
+        "ArrowLeft": "peco.BackwardChar",
+        "ArrowRight": "peco.ForwardChar",
+        "Delete": "peco.DeleteForwardChar",
+        "C-Space": "peco.DeleteForwardWord"
+    }
+}
+

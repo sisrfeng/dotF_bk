@@ -1,0 +1,26 @@
+# run `bat --help` to get a list of all possible configuration options.
+
+--theme="GitHub"  # `bat --list-themes` for available themes
+
+# if you are using `less version >= 551` and want to
+# enable mouse scrolling support in `bat` when running inside tmux.
+# This might disable text selection, unless you press shift.
+--pager="less --RAW-CONTROL-CHARS --quit-if-one-screen --mouse"
+
+# map a certain filename pattern to a language.
+--map-syntax "*config:sh"
+--map-syntax "*log:Python"
+--map-syntax ".ignore:Git Ignore"  # communicates with git(1) to show modifications with respect to the git index
+
+--style="changes"  # communicates with git(1) to show modifications with respect to the git index?
+
+--wrap="never"
+
+
+
+
+
+
+# 应该没用
+# Uncomment the following line to disable automatic paging:
+#--paging=never

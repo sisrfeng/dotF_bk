@@ -1,0 +1,18 @@
+{
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "name": "Comments",
+                "scope": [
+                    "comment",
+                    "punctuation.definition.comment"
+                ],
+                "settings": {
+                    "fontStyle": "",
+                    "foreground": "#725803b7"
+                }
+            }
+        ],
+        "comments": ""
+    }
+}

@@ -1,0 +1,9 @@
+account default
+host smtp.163.com
+from liuweifengemail@163.com
+auth login
+tls off
+user liuweifengemail@163.com
+#奇怪的密码（第三方客户端密码？）去163邮箱网页版找
+#password LLMANLLHD
+logfile ~/.msmtp.log

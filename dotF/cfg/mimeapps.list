@@ -1,0 +1,4 @@
+
+[Default Applications]
+x-scheme-handler/kite=kite-copilot.desktop
+application/pdf=org.pwmt.zathura-pdf-poppler.desktop;

@@ -1,0 +1,8 @@
+# Anaconda仓库与第三方源（conda-forge、msys2、pytorch等
+show_channel_urls: true
+channels:
+  - http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+  - http://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge
+  - defaults
+  - conda-forge
+channel_priority: flexible
